@@ -4,8 +4,8 @@ class Person {
 		this._name=name;
 		this._age=age;
 	}
-	set (){
-		this._name=;
+	set (name){
+		this._name=name;
 	}
 	get (){
 		return this._name;
